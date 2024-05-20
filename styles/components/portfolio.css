@@ -1,0 +1,247 @@
+.portfolio__title{
+    font-size:var(--size-2xl);
+    color:var(--clr-light);
+}
+.portfolio__description{
+    max-width:60ch;
+    font-size:var(--sie-sm);
+    color:var(--clr-slate600);
+    margin:1rem auto;
+}
+
+.portfolio{
+    text-align: center;
+}
+
+.portfolio__project-title{
+    font-size:var(--size-base);
+    margin-bottom:1rem;
+}
+
+.project__container{
+margin-bottom:2rem;
+
+}
+
+.work-menu{
+  list-style:none;
+  margin-bottom: 3rem;
+}
+.work-menu li{
+  display: inline-block;
+  margin:1rem;
+  color: var(--clr-green);
+}
+
+.project__work-description1{
+  font-size:var(--size-sm);
+  color:var(--clr-slate600);
+  margin:1rem 0;
+}
+
+.project__work-description2{
+  font-size:var(--size-sm);
+  color:var(--clr-slate400);
+  margin:1rem 0;
+}
+
+.project__portfolio-btn{
+  font-size:var(--size-sm);
+}
+
+.notDisplayed{
+  display: none;
+}
+
+.underlined{
+  text-decoration: underline;
+}
+
+
+
+/* xs */
+ @media(min-width:475px){
+   .portfolio__title{
+    font-size: var(--size-2xl);
+   }
+
+   .portfolio__description{
+    font-size:var(--size-base);
+    margin:1.5rem auto;
+   }
+   .portfolio__project-title{
+    font-size:var(--size-lg);
+    margin-bottom:1.5rem;
+}
+.project__work-description1{
+  font-size:var(--size-sm);
+  margin:1.5rem 0;
+}
+
+.project__work-description2{
+  font-size:var(--size-sm);
+  margin:1.5rem 0;
+}
+.project__portfolio-btn{
+  font-size:var(--size-base);
+}
+
+.notDisplayed{
+  display: none;
+}
+
+
+ }
+
+/* small */
+  @media(min-width:640px){
+
+    .portfolio__project{
+      padding: 0 1rem;
+    }
+
+    .project__container{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+     grid-template-areas:
+     'image1 content1'
+     'content2 image2';
+     place-items: center;
+      }
+
+      .project__image1{
+        grid-area:image1;
+      }
+
+      .project__image2{
+        grid-area: image2;
+      }
+
+      .project__content1{
+        grid-area:content1;
+      }
+
+      .project__content2{
+        grid-area:content2;
+      }
+
+    .project__project-title{
+      display: none;
+    }
+    .project__work-description1{
+      font-size:var(--size-xs);
+      margin:1em 0;
+    }
+    
+    .project__work-description2{
+      font-size:var(--size-xs);
+      margin:1em 0;
+    }
+    .project__portfolio-btn{
+      font-size:var(--size-xs);
+    }
+
+    .notDisplayed{
+      display: none;
+    }
+    
+ }
+
+/* medium */
+   @media(min-width:768px){
+   
+    .project__project-title{
+      display: none;
+    }
+    .project__work-description1{
+      font-size:var(--siz-base);
+    
+    }
+    
+    .project__work-description2{
+      font-size:var(--size-small);
+      
+    }
+    .project__portfolio-btn{
+      font-size:var(--size-small);
+    }
+
+    .notDisplayed{
+      display: none;
+    }
+ } 
+
+/* large */
+  @media(min-width:1024px){
+    .portfolio__title{
+        font-size: var(--size-2xl);
+       }
+    
+       .portfolio__description{
+        font-size:var(--size-xl);
+        margin:1.5rem auto;
+       }
+       
+       .project__work-description1{
+        font-size: var(--size-base);
+       }
+
+       .project__work-description2{
+        font-size: var(--size-base);
+       }
+
+      .notDisplayed{
+        display: none;
+      }
+ } 
+
+/* Xl */
+  @media(min-width:1280px){
+    .portfolio__title{
+        font-size: var(--size-4xl);
+       }
+    
+       .portfolio__description{
+        font-size:var(--size-lg);
+        margin:2rem auto;
+       }
+
+       .notDisplayed{
+        display: none;
+      }
+
+      .portfolio__title{
+        font-size: var(--size-lg);
+       }
+    
+       .portfolio__description{
+        font-size:var(--size-lg);
+        margin:1.5rem auto;
+       }
+       
+       .project__work-description1{
+        font-size: var(--size-base);
+       }
+
+       .project__work-description2{
+        font-size: var(--size-xl);
+       }
+
+       .project__container{
+        width:80%;
+        margin: 0 auto;
+
+       }
+
+      .notDisplayed{
+        display: none;
+      }
+ } 
+
+/* 2Xl */
+  @media(min-width:1536px){
+    .project__container{
+      width:70%;
+     }
+ } 
+

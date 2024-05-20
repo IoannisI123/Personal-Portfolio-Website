@@ -1,0 +1,136 @@
+.hero{
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:1rem;
+    margin-top:2rem;
+}
+
+.hero__subtitle{
+    color:var(--clr-slate400);
+    font-size:var(--size-base);
+    line-height:0.9;
+}
+
+.hero__title{
+    color: var(--clr-slate400);
+    text-transform: uppercase;
+    font-size: var(--size-3xl);
+    letter-spacing: -0.05em;
+    line-height:
+    0.9;
+}
+
+.hero__describtion{
+    max-width:60ch;
+    font-size:var(--size-sm);
+    color:var(--clr-slate600);
+}
+
+.hero__btn{
+ text-transform: capitalize;
+ font-size:var(--size-sm);
+}
+
+
+/* xs */
+@media(min-width:475px){
+    .hero{
+        gap:1.5rem;
+        margin-top:2rem;
+    }
+    
+    .hero__subtitle{
+       font-size:var(--size-lg);
+    }
+    
+    .hero__title{
+        
+        font-size: var(--size-5xl);
+        letter-spacing: -0.05em;
+        line-height:
+        0.9;
+    }
+    
+    .hero__describtion{
+        max-width:60ch;
+        font-size:var(--size-base);
+        color:var(--clr-slate600);
+    }
+    
+    .hero__btn{
+     font-size:var(--size-base);
+    }
+ } 
+
+/* small */
+ @media(min-width:640px){
+    
+ }
+
+/* medium */
+ @media(min-width:768px){
+   
+ } 
+
+/* large */
+ @media(min-width:1024px){ 
+    .hero__subtitle{
+       font-size:var(--size-2xl);
+    }
+    
+    .hero__title{
+        
+        font-size: var(--size-5xl);
+        letter-spacing: -0.05em;
+        line-height:
+        0.9;
+    }
+    
+    .hero__describtion{
+        max-width:60ch;
+        font-size:var(--size-lg);
+        color:var(--clr-slate600);
+    }
+    
+    .hero__btn{
+     font-size:var(--size-lg);
+    }
+ } 
+
+/* Xl */
+ @media(min-width:1280px){
+     .hero{
+        gap:2rem;
+     }
+    
+    .hero__subtitle{
+        font-size:var(--size-2xl);
+     }
+     
+     .hero__title{
+         
+         font-size: var(--size-6xl);
+         letter-spacing: -0.05em;
+         line-height:
+         0.9;
+     }
+     
+     .hero__describtion{
+         max-width:60ch;
+         font-size:var(--size-lg);
+         color:var(--clr-slate600);
+     }
+     
+     .hero__btn{
+      font-size:var(--size-lg);
+     }
+ } 
+
+/* 2Xl */
+ @media(min-width:1536px){
+    
+    
+ } 

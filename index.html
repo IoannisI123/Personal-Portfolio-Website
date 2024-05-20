@@ -1,0 +1,298 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./styles/modern-normalize.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/utils.css">
+    <link rel="stylesheet" href="./styles/components/header.css">
+    <link rel="stylesheet" href="./styles/components/hero.css">
+    <link rel="stylesheet" href="./styles/components/about.css">
+    <link rel="stylesheet" href="./styles/components/portfolio.css">
+    <link rel="stylesheet" href="./styles/components/contact.css">
+    <link rel="stylesheet"  href="./styles/components/footer.css">
+    <link rel="stylesheet" href="./styles/components/mobile-nav.css">
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+  </head>
+  <body>
+    <header class=" header container">
+      <nav>
+        <ul class = "header__menu">
+       <li>
+        <a href="#about" class="header__link about-btn">Για Εμένα</a>
+       </li>
+       <li>
+        <a href="#portfolio" class="header__link">Οι δουλειές μου</a>
+       </li>
+       <li>
+        <a href="#contact" class="header__link">Επικοινωνία</a>
+       </li>
+
+       <li><button class="header__github"><a href="https://github.com/IoannisI123" target="_blanc">
+        <i class="fa fa-github"></button></a></i></li>
+       <li>
+
+        <li><button class="header__linkedin"><a href="https://www.linkedin.com/in/ioannis-iordanoglouu-773ba024a/" target="_blank">
+          <i class="fa fa-linkedin"></button></a></i></li>
+          
+         <li>
+
+       <li class="header__line"></li>
+
+       <li>
+
+        <button class="header__light">
+
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M12 18v-5.25m0 0a6.01 6.01 0 0 0 1.5-.189m-1.5.189a6.01 6.01 0 0 1-1.5-.189m3.75 7.478a12.06 12.06 0 0 1-4.5 0m3.75 2.383a14.406 14.406 0 0 1-3 0M14.25 18v-.192c0-.983.658-1.823 1.508-2.316a7.5 7.5 0 1 0-7.517 0c.85.493 1.509 1.333 1.509 2.316V18" />
+        </svg>
+        
+           </button>
+       </li>
+
+      <a href="#" class="header__resume btn">Βιογραφικό</a>
+       </li>
+        </ul>
+
+        <button class="header__bars">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+          </svg>
+          
+        </button>
+      </nav>
+    </header>
+    <!-- Mobile Menu-->
+<div class="mobile-nav__hidden" id="mobile-nav">
+<ul class="mobile-nav__menu">
+  <li>
+    <a class="mobile-nav__link about-nav__link" href="#about">Για Εμένα</a>
+  </li>
+  <li>
+    <a class="mobile-nav__link" href="#portfolio">Οι δουλειές μου</a>
+  </li>
+  <li>
+    <a class="mobile-nav__link" href="#contact">Επικοινωνία</a>
+  </li>
+
+  <li><button class="mobile-nav__github"><a href="https://github.com/IoannisI123" target= "_blanc">
+    <i class="fa fa-github"></button></a></i></li>
+   <li>
+
+    <li><button class="mobile-nav__linkedin"><a href="https://www.linkedin.com/in/ioannis-iordanoglouu-773ba024a/" target="_blank">
+      <i class="fa fa-linkedin"></button></a></i></li>
+      
+     <li>
+
+  <li class="mobile-nav__link-line"></li>
+  
+  <li> 
+    <button class="mobile-nav__light">
+
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M12 18v-5.25m0 0a6.01 6.01 0 0 0 1.5-.189m-1.5.189a6.01 6.01 0 0 1-1.5-.189m3.75 7.478a12.06 12.06 0 0 1-4.5 0m3.75 2.383a14.406 14.406 0 0 1-3 0M14.25 18v-.192c0-.983.658-1.823 1.508-2.316a7.5 7.5 0 1 0-7.517 0c.85.493 1.509 1.333 1.509 2.316V18" />
+    </svg>
+    
+       </button></li>
+  <li></li>
+  <li></li>
+  <li>
+    <a class="mobile-nav__btn btn" href="#">Βιογραφικό</a>
+  </li>
+</ul>
+
+</div>
+
+ <!--Main Section-->
+
+<main>
+
+<section class="hero container">
+
+  <h2 class="hero__subtitle"> Είμαι ο Ιωάννης Ιορδάνογλου</h2>
+  <h1 class="hero__title">Web Developer & <br> Digital Marketer</h1>
+  <p class="hero__describtion"> Παθιασμένος <strong>Frontend / Fullstack</strong> Web developer με όρεξη και γνώσεις πάνω στην <strong>κατασκευή διαδραστικών ιστοσελίδων 
+    και εφαρμογών</strong> καθώς και γνώσεις και εμπειρία πάνω στο <strong>Digital Marketing.</strong> </p>
+  <a href="" class="hero__btn btn"> Επικοινωνήστε Μαζί μου</a>
+</section>
+
+
+<section id="about" class="about container section">
+  <div class="about__content">
+    <h2 class="about__title">Για εμένα</h2>
+    <p class="about__describtion"> Είμαι 25 χρονών Web Developer Από την Αθήνα.<br> Με εμπειρία τόσο στο front-end όσο και στο back-end, έχω δημιουργήσει projects που περιέχουν ποικιλία τεχνολογιών. Μπορείτε να δείτε περισσότερες λεπτομέρειες για τα Projects μου παρακάτω</p>
+    <p class="about__describtion"> Τέλος, το μεγαλύτερο μέρος της καριέρας μου μέχρι στιγμής το έχω περάσει σε θέσεις διαδικτυακού marketing. Όμως, μέσω αυτών έχω πάρει πολλά soft skills που μεταφέρονται άμεσα στον τομέα του web developm.</p>
+    <hr class="about__hr">
+    <h3 class="about__title">Τεχνολογίες Που Γνωρίζω</h3>
+
+    <h3 class="about__subtitle ">Γλώσσες Προγραμματισμού</h3>
+    <ul class="about__languages">
+      <li class="about__li">HTML</li>
+      <li class="about__li">CSS</li>
+      <li class="about__li">Javascript</li>
+      <li class="about__li">Typescript</li>
+      <li class="about__li">Java</li>
+      <li class="about__li">mySQL</li>
+     
+   </uL>
+
+   <h3 class="about__subtitle">Front End</h3>
+    <ul class="about__frontend">
+      <li class="about__li">React.js</li>
+     <!-- <li class="about__li">ChakraUI</li>-->
+    </uL>
+
+    <h3 class="about__subtitle">Back End</h3>
+    <ul class="about__backend">
+      <li class="about__li">Node.js</li>
+      <li class="about__li">Express.js</li>
+    </uL>
+
+    <h3 class="about__subtitle">Εργαλεία</h3>
+    <ul class="about__backend">
+      <li class="about__li">Git</li>
+      
+    </uL>
+
+  </div>
+  <div>
+    <img src="">
+  </div>
+
+
+</section>  
+
+
+
+<section id= "portfolio" class="portfolio container section">
+  <h2 class="portfolio__title"> Οι δουλειές μου</h2>
+  <p class="portfolio__description">
+Παρακάτω μπορείτε να δείτε τα προσωπικά μου Web Developemnt Projects και να πάρετε μια ιδέα για την ενασχόληση μου με το Digital Marketing.
+
+  </p>
+
+<ul class="work-menu">
+<li ><button id="webDevBtn">Web Development</button></li>
+<li><button  id="digitalMarketingBtn">Digital Marketing</button></li>
+</ul>
+
+
+  <div class="project__container" id="webDevSection">
+<!-- Firts Project-->
+
+<h3 class="project__project-title">Pokemon Battle Simulator</h3>
+<div class="project__image1">
+<img src="images/pokemon battle simulator.png" class="project__image1" alt="First Project image">
+  </div>
+<div class="portfolio__project project__content1">
+
+  <p class="project__work-description1">Pokemon Game </p>
+<p class="project__work-description2">H βασική μου έμπνευση προήλθε από τα παιχνίδια Pokemon της Nintendo  καθώς κα από μια Javascript άσκηση στο πρόγραμμα του Free Code Camp για ένα text RPG game. Σκέφτηκα πως θα μπορούσα να εφαρμόσω κάποια από αυτά που είχα μάθει σε εκείνη την άσκηση σε κάτι καινούριο και εδώ είμαστε.</p>
+<p class="project__work-description1">Το συγκεκριμένο project έχει κατασκευαστεί με HTML,CSS και Javascript</p>
+
+<a href="" class="btn project__portfolio-btn">See it Live</a>
+<a href="" class="btn project__portfolio-btn">Github</a>
+</div>
+</div>
+
+<div class="project__container" id="webDevSection2">
+
+  <!-- Second Project-->
+  
+  <h3 class="project__project-title">Προσωπική Ιστοσελίδα</h3>
+  <div class="project__image2">
+ <img src="images/Personal Website.png" class="project__image2" alt="Second Project image">
+</div>
+
+  <div class="portfolio__project project__content2">
+  
+  <p class="project__work-description2">Προσωπική ιστοσελίδα</p>
+  <p class="project__work-description1">Το συγκεκριμένο project έχει κατασκευαστεί με HTML,CSS και Javascript</p>
+  
+  
+  <a href="" class="btn project__portfolio-btn">Github</a>
+  </div>
+  </div>
+
+  <!-- Digital Marketing-->
+
+
+<div class="project__container notDisplayed" id="digitalMarketingSection">
+<h3 class="project__project-title">Digital Marketing</h3>
+<div class="portfolio__img-wrapper">
+<img src="images/digital-4368784_1280 (1).jpg" alt="digital Marketing Logo">
+</div>
+<div class="portfolio__project">
+<p class="project__work-description1">Ενασχόληση με το διαδικτυακό Marketing από το 2022</p>
+<p class="project__work-description2">Έχω αναλάβει μεγάλο αριθμό λογαριασμών Google και Social Media Ads με ποικίλα budgets σε 2 Digital Marketing Agencies και έχω αναλάβει και μερικά προσωπικά Projects. </p>
+
+<a href="" class="btn project__portfolio-btn">Δείτε την Εργασιακή μου εμπειρία</a>
+
+</div>
+</div>
+
+  
+</section>
+
+
+<section class="contact container section">
+<h3 id ="contact" class="contact__title"> Επικοινωνήστε Μαζί μου</h3>
+
+<div class="project__form">
+<form>
+
+<div class="row">
+  
+  <div class="input-items">  
+    <input type="text" id="firstName" required/>
+    <label for="firstName">Όνομα</label>
+    </div>
+    
+    <div class="input-items">
+      <input type="number" id="phoneNum" required/>
+      <label for="phoneNum">Τηλέφωνο</label>
+      </div>
+    
+</div>
+ 
+<div class="input-items">
+<input type="email" id="E-mail" required/>
+<label for="E-mail" >E-mail</label>
+</div>
+
+  <div class="input-items">
+<label for="radio">Ποια υπηρεσία σας ενδιαφέρει; </label><br><br>
+  <input type="radio" id="wevbDev" name="service" class="input-item">Web Development</radio>
+  <input type="radio" id="digitalMark" name="service" class="input-item">Digital Marketing</radio>
+</div>
+
+<div class="input-items">
+    <textarea id="message" rows="5" required></textarea>
+    <label for="message">Μήνυμα</label>
+  </div>
+
+  <button type="submit" class="btn submit-btn">Submit</button>
+
+</form>
+</div>
+
+
+</section>
+
+<footer class="footer container section">
+  <h3 class="footer__title">Κατασκευασμένο από <Strong>Ιορδανογλου Ιωαννης</Strong></h3>
+
+</footer>
+
+  
+<script src="main.js"></script>
+<script src="mobile.js"></script>
+</main>
+
+   
+    
+  </body>
+</html>
